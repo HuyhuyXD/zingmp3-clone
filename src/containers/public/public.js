@@ -5,16 +5,16 @@ import { SidebarLeft, SidebarRight } from "../../Components";
 
 const Public = () => {
     return (
-        <div className="w-full">
-            <div>
+        <div className="w-full flex bg-[#CED9D9]">
+            <div className="w-[240px] flex-none">
                 <SidebarLeft />
             </div>
 
-            <div>
+            <div className="flex-auto">
             <Outlet />
             </div>
 
-            <div>
+            <div className="w-[329px] flex-none">
                 <SidebarRight />
             </div>
             
