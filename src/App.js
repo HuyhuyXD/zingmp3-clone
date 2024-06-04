@@ -5,8 +5,17 @@ import { useSelector, useDispatch } from "react-redux";
 import { Home, Login, Public } from "./containers/public/";
 import { Routes, Route } from "react-router-dom";
 import path from "./Ultils/path";
+import { useEffect } from "react";
+import * as actions from './store/actions'
+
+
 
 function App() {
+  const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch()
+  }, [])
+
   return (
     <>
       <div className="">
@@ -36,4 +45,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

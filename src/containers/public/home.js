@@ -1,5 +1,4 @@
-import React from "react";
-import { header } from "../../Components";
+import React, {useEffect} from "react";
 import Header from "../../Components/header";
 
 const Home = () => {

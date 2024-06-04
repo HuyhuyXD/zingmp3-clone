@@ -4,6 +4,7 @@ import { TbChartArcs } from "react-icons/tb";
 import { MdOutlineFeed } from "react-icons/md";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { FiSearch } from "react-icons/fi";
 
 const icons = {
     MdOutlineLibraryMusic,
@@ -11,7 +12,8 @@ const icons = {
     TbChartArcs,
     MdOutlineFeed,
     AiOutlineArrowLeft,
-    AiOutlineArrowRight
+    AiOutlineArrowRight,
+    FiSearch
 }
 
 export default icons
